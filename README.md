@@ -125,7 +125,8 @@
 [^5]: [Similarweb ](https://pro.similarweb.com)
 [^6]: [Финансовые результаты за 2 кв. 2025 года](https://cdn1.ozone.ru/s3/sigma-static-e93b3ad2-6f0b-4ad0-a53e-192ad6466704/Финансовые%20результаты%20за%202%20кв.%202025%20года.pdf?ts=1754581943712)
 [^7]: [Ozon Seller](https://seller.ozon.ru/)
+[^8]: [Managing Your Online Reputation: Key Online Review Statistics](https://www.ileeline.com/online-review-statistics/)
+
+Пример аналитики поиска с Ozon Seller:
 
 ![Аналитика Ozon Seller](/img/SourcesList/ozon-seller.png)
-
-[^8]: [Managing Your Online Reputation: Key Online Review Statistics](https://www.ileeline.com/online-review-statistics/)
