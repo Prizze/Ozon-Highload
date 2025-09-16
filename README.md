@@ -127,6 +127,8 @@
 [^7]: [Ozon Seller](https://seller.ozon.ru/)
 [^8]: [Managing Your Online Reputation: Key Online Review Statistics](https://www.ileeline.com/online-review-statistics/)
 
+&nbsp;
+
 Пример аналитики поиска с Ozon Seller:
 
 ![Аналитика Ozon Seller](/img/SourcesList/ozon-seller.png)
