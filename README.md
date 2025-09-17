@@ -196,7 +196,7 @@
 [^7]: [Ozon Seller - аналитика поисковых запросов](https://seller.ozon.ru/app/analytics/what-to-sell/all-queries) \*
 [^8]: [Managing Your Online Reputation: Key Online Review Statistics](https://www.ileeline.com/online-review-statistics/)
 [^9]: [Ozon Seller - аналитика популярных товаров](https://seller.ozon.ru/app/analytics/what-to-sell/ozon-bestsellers)
-[^10] [Ozon - годовой отчет 2023](https://cdn1.ozone.ru/s3/sigma-static-e93b3ad2-6f0b-4ad0-a53e-192ad6466704/Ozon_Annual_Report_2023_RUS.pdf?ts=1734619098494)
+[^10]: [Ozon - годовой отчет 2023](https://cdn1.ozone.ru/s3/sigma-static-e93b3ad2-6f0b-4ad0-a53e-192ad6466704/Ozon_Annual_Report_2023_RUS.pdf?ts=1734619098494)
 
 \* Пример аналитики поиска с Ozon Seller:
 
