@@ -357,12 +357,30 @@
 | Product_view | История просмотров товаров | 56 |
 | Product_view_stat | Счетчик просмотров товара | 28 |
 | Review_stat | Счетчик количества отзывов к товару | 36 |
-| Order_stats | Счетчик заказов у товара | 28 |
+| Order_stat | Счетчик заказов у товара | 28 |
 | Order_return_stat | Счетчик возвратов товара | 28 |
 | Product_search | Таблица для поиска по товарам | 1000 |
 
 ## 6. Физическая схема БД
-
+| Таблица | СУБД |
+| :- | :- |
+| User | PostgreSQL |
+| User_image | S3 |
+| Session | Redis |
+| Product | PostgreSQL |
+| Product_image | S3 |
+| Category | PostgreSQL |
+| Review | PostgreSQL |
+| Cart | PostgreSQL |
+| Delivery_address | PostgreSQL |
+| Order | PostgreSQL |
+| Payment | PostgreSQL |
+| Product_view | ClickHouse |
+| Product_view_stat | ClickHouse |
+| Review_stat | ClickHouse |
+| Order_stat | ClickHouse |
+| Order_return_stat | ClickHouse |
+| Product_search | ElasticSearch |
 
 
 ## 12. Список источников
