@@ -362,25 +362,31 @@
 | Product_search | Таблица для поиска по товарам | 1000 |
 
 ## 6. Физическая схема БД
-| Таблица | СУБД |
-| :- | :- |
-| User | PostgreSQL |
-| User_image | S3 |
-| Session | Redis |
-| Product | PostgreSQL |
-| Product_image | S3 |
-| Category | PostgreSQL |
-| Review | PostgreSQL |
-| Cart | PostgreSQL |
-| Delivery_address | PostgreSQL |
-| Order | PostgreSQL |
-| Payment | PostgreSQL |
-| Product_view | ClickHouse |
-| Product_view_stat | ClickHouse |
-| Review_stat | ClickHouse |
-| Order_stat | ClickHouse |
-| Order_return_stat | ClickHouse |
-| Product_search | ElasticSearch |
+| Таблица           | СУБД          | Индексы                   | Шардирование |
+| :- | :- | :- | :- |
+| User              | MongoDB       | user_id, email            | user_id |
+| User_image        | AmazonS3      |                           |  |
+| Session           | Redis         |                           |  |
+| Product           | MongoDB       | product_id, user_id       | product_id |
+| Product_image     | Amazon S3     |                           |  |
+| Category          | MongoDB       | category_id               |  |
+| Review            | MongoDB       | product_id                | product_id |
+| Cart              | MongoDB       | user_id                   | user_id |
+| Delivery_address  | MongoDB       | delivery_address_id       |  |
+| Order             | MongoDB       | (user_id, created_at)     | user_id |
+| Payment           | MongoDB       | order_id, transaction_id  | user_id |
+| Product_view      | ClickHouse    |                           |  |
+| Product_view_stat | ClickHouse    |                           |  |
+| Review_stat       | ClickHouse    |                           |  |
+| Order_stat        | ClickHouse    |                           |  |
+| Order_return_stat | ClickHouse    |                           |  |
+| Product_search    | ElasticSearch |                           |  |
+
+### Денормализация
+
+Денормализуем некоторые таблицы.
+- **Order, Cart:** Товары в заказе и корзине хранятся в JSON - id товара, цена и количесвто.
+- **Product:** Картинки товара хранятся массивом ссылок на файлы. Атрибуты товара хранятся в JSON, что позволит поддерживать неоднородность товаров и их характеристик.
 
 
 ## 12. Список источников
