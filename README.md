@@ -503,6 +503,13 @@ $\alpha = 0.8,\ \beta = 0.2$
 
 ## 9. Схема проекта
 
+### Схема проекта
+<div align="center">
+
+![Схема проекта](/img/Scheme/OzonScheme.png)
+
+</div>
+
 ## 12. Список источников
 [^1]: [Ozon Tech](https://ozon.tech) 
 [^2]: [Mediascope: Медиапотребление и e-commerce в России](https://mediascope.net/upload/iblock/4fe/y85jka00l645h8f5qaw2zd52fhxrz4x3/Ecom%202024_Mediascope.pdf)
